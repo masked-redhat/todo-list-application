@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basic Todo Application">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <title>Todo list Application</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <section class="todoSection" id="ongoing">
+            <header>
+                <h2 class="heading">Ongoing</h2>
+                <button class="btn" id="addTodo"><img src="./icons/plus.svg" alt="add a new todo" class="icon"></button>
+                <button class="btn" id="createList">Create New List</button>
+            </header>
+            <section class="todos">
+                <article class="todo">
+                    <div class="content">
+                        <h3>Todo Title</h3>
+                        <p>Descriptive text</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn"><img src="./icons/check.svg" alt="complete todo" class="icon"></button>
+                        <button class="btn"><img src="./icons/delete.svg" alt="delete todo" class="icon"></button>
+                    </div>
+                </article>
+            </section>
+        </section>
+        <section class="todoSection" id="completed">
+            <header>
+                <h2 class="heading">Completed</h2>
+            </header>
+            <section class="todos">
+                <article class="todo">
+                    <div class="content">
+                        <h3>Todo Title</h3>
+                        <p>Descriptive text</p>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <h1>Todo List Application</h1>
+        <p>Copyright © Masked-Redhat 2024.</p>
+    </footer>
+</body>
+
+</html>
