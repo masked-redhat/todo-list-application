@@ -220,14 +220,10 @@ header {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 504px) {
     .content {
-        width: 60%;
-    }
-
-    .buttons {
-        margin-left: auto;
-        width: 40%;
+        min-width: 0;
+        margin: 0.5rem;
     }
 
     footer {
