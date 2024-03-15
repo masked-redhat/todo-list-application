@@ -37,7 +37,6 @@ const askToDeleteAll = () => {
 }
 
 const createList = () => {
-    localStorage.clear();
     localStorage.setItem('ongoing', '{}');
     localStorage.setItem('completed', '{}');
 
