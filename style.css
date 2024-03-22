@@ -152,7 +152,7 @@ header {
 .content p {
     max-width: 100%;
     overflow: hidden;
-    white-space: nowrap;
+    /* white-space: nowrap; Giving Problems with making theshort message overflow*/ 
     text-overflow: ellipsis;
 }
 
